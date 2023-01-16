@@ -1,4 +1,4 @@
-# shell-bot
+# sh-bot-run
 
 This is a fully functional shellrunner [Telegram bot][]. You tell it a
 command, it executes it and posts the live output. You can send input to the
@@ -45,7 +45,7 @@ and know your personal user's numeric ID. If you don't know what this
 means, check out the [blog post][] for a full step-by-step guide.
 
 ~~~
-git clone https://github.com/botgram/shell-bot.git && cd shell-bot
+git clone https://github.com/Nirzak/sh-bot-run.git && cd shell-bot
 npm install
 ~~~
 
