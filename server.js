@@ -2,32 +2,7 @@
 // Starts the bot, handles permissions and chat context,
 // interprets commands and delegates the actual command
 // running to a Command instance. When started, an owner
-// ID should be given.
-
-
-// Importing 'http' module 
-const http = require('http');
-  
-// Setting Port Number as 80 
-const port = 80;
-  
-// Setting hostname as the localhost
-const hostname = '127.0.0.1';
-  
-// Creating Server 
-const server = http.createServer((req,res)=>{
-  
-    // Handling Request and Response 
-    res.statusCode=200;
-    res.setHeader('Content-Type', 'text/plain')
-    res.end("Server IS Ok")
-});
-
-server.listen(port,hostname,()=>{
-  
-    // Callback 
-    console.log(`Server running at http://${hostname}:${port}/`);
-});
+// ID should be given.p
 
 var path = require("path");
 var fs = require("fs");
